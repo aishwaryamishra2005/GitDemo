@@ -34,12 +34,12 @@ git init: initializes git on vs code
 
 git remote add origin link: add current directory to the link(git hub repo link) provided
 
-verify remote -v: verifies the git hub link from previous command
+git remote -v: verifies the git hub link from previous command
 
 git branch: lets us know the current branch (by default its master)
 
 git branch -M main: changes the names of branch from master to main
 
-git push original main: uploads the current directory to github
+git push original main/ git push -u origin main: uploads the current directory to github
 
 ##instead of always writing original main we write, -u
