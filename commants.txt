@@ -1,0 +1,31 @@
+FOR REPO ALREADY ON GIT
+
+Clone: to clone a repo on our local device 
+       git clone link
+
+Change Directory: moves the user to that particular folder
+       cd gitdemo
+
+Exit Directory:     cd ..
+
+Make New Directory:   mkdir filenmane
+
+List Files: lists all the files in a folder
+             list
+             list -a (for hidden files)
+
+Status: lets us know the status of the files
+             git status
+
+Add: adds the new or changes files in working directory to git staging area
+     git add filename or git add .(if all the files have to be addes to stage area)
+              
+Commit: commits it i.e saves it
+        git commit -m "any message"
+
+Push: upload local repo to remote repo(the one on git hub)                     
+      git push origin main
+
+
+
+TO CREATE A NEW REPO AND ADD FROM OUR LOCAL DEVICE
